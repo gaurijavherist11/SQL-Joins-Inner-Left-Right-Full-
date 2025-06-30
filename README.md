@@ -43,22 +43,8 @@ Used to retrieve all records from the right table, and the matched ones from the
 Since MySQL doesn't support FULL JOIN directly, it is simulated using `UNION` between LEFT JOIN and RIGHT JOIN queries. It helps combine:
 - All customers and all orders, whether or not they are linked
 
----
-
-## 🎯 Outcome
-
-By using these JOINs effectively:
-- Gained experience in merging data across multiple related tables
-- Learned how to handle missing or unmatched data in different scenarios
-- Built foundational knowledge for writing complex queries for reports and dashboards
-
 This demonstrates practical SQL skills useful for real-world applications like e-commerce, billing, customer analytics, and inventory systems.
 
 ---
 
-## 🧠 What's Next?
 
-You can build upon this by:
-- Creating views to simplify reporting
-- Adding constraints or triggers
-- Writing stored procedures for business logic
